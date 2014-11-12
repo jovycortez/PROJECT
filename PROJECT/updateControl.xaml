@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="WpfApplication1.updateControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <ComboBox 
+            IsEditable="True"
+            IsReadOnly="True"
+            Text="--- Select ---"
+            Height="23" HorizontalAlignment="Left" Margin="168,40,0,0" Name="cBoxHealthConcern" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Outpatient Surgery" />
+            <ComboBoxItem Content="Chest Trouble" />
+            <ComboBoxItem Content="Asthma" />
+            <ComboBoxItem Content="Allergy" />
+            <ComboBoxItem Content="Diabetics" />
+            <ComboBoxItem Content="Endocrine Disection" />
+            <ComboBoxItem Content="Trauma" />
+            <ComboBoxItem Content="Skin" />
+            <ComboBoxItem Content="Hypertension" />
+            <ComboBoxItem Content="Treatment Session" />
+        </ComboBox>
+        <Button Content="Update" Height="23" HorizontalAlignment="Left" Margin="213,265,0,0" Name="update_btn" VerticalAlignment="Top" Width="75" Click="update_btn_Click" IsEnabled="False" />
+        <ScrollViewer Height="173" HorizontalAlignment="Left" Margin="12,86,0,0" Name="scrollViewer1" VerticalAlignment="Top" Width="276">
+            <TextBox  Name="txtDescr" Background="#FFF8F8F8" />
+        </ScrollViewer>
+        <Label Content="Person" Height="28" HorizontalAlignment="Left" Margin="21,22,0,0" Name="lblPersonFandLName" VerticalAlignment="Top" Width="127" />
+        <Label Content="Health Concern" Height="28" HorizontalAlignment="Left" Margin="164,16,0,0" Name="label1" VerticalAlignment="Top" />
+        <RadioButton GroupName="g1" Content="Covered by Insurance" Height="16" HorizontalAlignment="Left" Margin="19,264,0,0" Name="radioButton1" VerticalAlignment="Top" />
+        <RadioButton GroupName="g1" Content="No Insurance Coverage" Height="16" HorizontalAlignment="Left" Margin="19,278,0,0" Name="radioButton2" VerticalAlignment="Top" />
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                <GradientStop Color="#FFF3FDE7" Offset="0" />
+                <GradientStop Color="#FF87B74B" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>
+</UserControl>
