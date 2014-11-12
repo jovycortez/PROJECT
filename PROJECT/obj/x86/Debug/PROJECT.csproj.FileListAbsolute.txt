@@ -25,3 +25,30 @@ C:\Users\Jovy\Documents\Visual Studio 2010\Projects\PROJECT\PROJECT\obj\x86\Debu
 C:\Users\Jovy\Documents\Visual Studio 2010\Projects\PROJECT\PROJECT\obj\x86\Debug\searchControl.baml
 C:\Users\Jovy\Documents\Visual Studio 2010\Projects\PROJECT\PROJECT\obj\x86\Debug\patientInfo.g.cs
 C:\Users\Jovy\Documents\Visual Studio 2010\Projects\PROJECT\PROJECT\obj\x86\Debug\searchControl.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\bin\Debug\PROJECT.exe.config
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\PROJECT.exe
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\PROJECT.pdb
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\PROJECT.csprojResolveAssemblyReference.cache
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\addPatient.baml
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\MainWindow.baml
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\patientInfo.baml
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\searchControl.baml
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\updateControl.baml
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\Menu.baml
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\Window3.baml
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\addPatient.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\patientInfo.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\searchControl.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\updateControl.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\Menu.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\Window3.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\App.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\PROJECT_Content.g.cs
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\PROJECT_MarkupCompile.cache
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\PROJECT.g.resources
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\obj\x86\Debug\PROJECT.csproj.GenerateResource.Cache
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\bin\Debug\Database1.sdf
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\bin\Debug\PROJECT.exe
+C:\Users\Flagg\Documents\GitHub\PROJECT\PROJECT\bin\Debug\PROJECT.pdb

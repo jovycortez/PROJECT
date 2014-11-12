@@ -4,7 +4,7 @@
         
         
         Title="Menu" Height="326" Width="509" BorderBrush="Black">
-    <Grid>
+    <Grid Name="MenuGrid">
         <Image Source="/PROJECT;component/Images/Gradient-Background-53.jpg" Stretch="UniformToFill" Margin="1,0,-1,0">
             <Image.OpacityMask>
                 <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
@@ -14,13 +14,9 @@
             </Image.OpacityMask>
         </Image>
         <Button Content="ADD" HorizontalAlignment="Left" Margin="93,252,0,12" Name="addbtn" Width="75" />
-        <Button Content="SEARCH" HorizontalAlignment="Left" Margin="391,229,0,35" Name="button2" Width="75" />
+        <Button Content="SEARCH" HorizontalAlignment="Left" Margin="400,252,0,12" Name="btnSearch" Width="75" Click="btnSearch_Click" />
         <Button Content="EXIT" Height="23" HorizontalAlignment="Left" Margin="12,252,0,0" Name="exitbtn" VerticalAlignment="Top" Width="75" Click="exitbtn_Click" />
-        <TabControl Height="254" HorizontalAlignment="Left" Margin="-3,-31,0,0" Name="tabControl1" VerticalAlignment="Top" Width="493" SelectionChanged="tabControl1_SelectionChanged">
-            <TabItem Header="tabItem1" Name="tabItem1" Visibility="Hidden">
-                <Grid Width="485" Visibility="Hidden" Background="{x:Null}" Height="230" />
-            </TabItem>
-        </TabControl>
+        
         
     </Grid>
 </Window>

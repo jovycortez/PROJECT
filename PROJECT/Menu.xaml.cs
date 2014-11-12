@@ -19,12 +19,20 @@ namespace WpfApplication1
     /// </summary>.
     public partial class Menu : Window
     {
+        searchControl cSearchControl;
      string dbConnectionString = @"Data Source=hospital.sqlite;Version=3;";
 
+    
         public Menu()
         {
            InitializeComponent();
-           tabItem1.Content = new searchControl();
+           cSearchControl = new searchControl();
+           cSearchControl.Name = "SearchName";
+           cSearchControl.Height = 200;
+           cSearchControl.Width = 300;
+           cSearchControl.HorizontalAlignment = HorizontalAlignment.Left;
+           cSearchControl.VerticalAlignment = VerticalAlignment.Top;
+           MenuGrid.Children.Add(cSearchControl);
             
         }
        
@@ -73,12 +81,17 @@ namespace WpfApplication1
             this.Close();
         }
 
-        private void tabControl1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
+            MenuGrid.Children.Remove(cSearchControl);
 
         }
 
-        
+    
+
+    
         
     }
 

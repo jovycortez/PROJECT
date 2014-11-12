@@ -28,7 +28,7 @@ namespace WpfApplication1
         {
             
             Menu m = new Menu();
-            m.tabItem1.Content = new patientInfo();
+     
             
 
             
