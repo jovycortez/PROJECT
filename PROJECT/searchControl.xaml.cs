@@ -26,11 +26,8 @@ namespace WpfApplication1
 
         private void btn_Click(object sender, RoutedEventArgs e)
         {
-            
-            Menu m = new Menu();
-     
-            
 
+            Menu m = new Menu();
             
         }
     }

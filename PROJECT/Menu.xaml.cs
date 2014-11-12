@@ -87,12 +87,7 @@ namespace WpfApplication1
         {
             MenuGrid.Children.Remove(cSearchControl);
 
-        }
-
-    
-
-    
-        
+        }        
     }
 
         }
